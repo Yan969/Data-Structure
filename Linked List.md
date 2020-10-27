@@ -40,4 +40,6 @@ func ShowListNode(node *Node){
 	}
 	ShowListNode(head2)
 ```  
+#### 2.循环链表
+#### 3.双向链表(空间换时间)
 
