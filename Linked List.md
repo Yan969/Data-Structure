@@ -1,4 +1,12 @@
 #### 1. 单链表  
+结构体:  
+```go
+type Node struct {
+	value int
+	next *Node
+}
+```  
+
 列表循环:  
 ```go
 func ShowListNode(node *Node){
