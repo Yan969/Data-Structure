@@ -1,15 +1,16 @@
 #### 1. 单链表  
-列表循环:   
-`
+列表循环:  
+```go
 func ShowListNode(node *Node){
 	for node != nil{
 		fmt.Println("node:", node)
 		node = node.next
 	}
 }
-`
+```  
+
 头插法:  
-`
+```go
 	tail1 := &Node{value:0}
 	head1 := tail1
 	for i := 1; i < 10; i++{
@@ -18,9 +19,10 @@ func ShowListNode(node *Node){
 		head1 = node
 	}
 	ShowListNode(head1)
-`
+```  
+
 尾插法:  
-`
+```go
 	head2 := &Node{value:0}
 	tail2 := head2
 	for i := 1; i < 10; i++  {
@@ -29,5 +31,5 @@ func ShowListNode(node *Node){
 		tail2 = node
 	}
 	ShowListNode(head2)
-  
- `
+```  
+
