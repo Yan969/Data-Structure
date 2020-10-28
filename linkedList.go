@@ -167,3 +167,6 @@ func (this *List) mergeTwoLists(l1 *listNode, l2 *listNode) *listNode{
 	}
 	return res
 }
+// 12.链表中环的检测
+// 13.删除链表中倒数第n个节点
+// 14.求链表的中间节点
